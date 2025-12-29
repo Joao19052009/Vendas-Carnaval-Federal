@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carnaval Federal 2026</title>
+    <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <header>
+        <!-- coloque aqui a logo oficial -->
+        <img src="imagens/logo.png" alt="Carnaval Federal 2026" />
+        <h1>Carnaval Federal 2026</h1>
+        <p>Evento privado • Experiência completa • Não é bloco de rua</p>
+        <a href="#vendas" class="cta-principal">Comprar agora</a>
+    </header>
+
+    <!-- PRODUTOS -->
+    <section id="vendas">
+        <h2 class="titulo-secao">Ingressos & Produtos</h2>
+
+        <div class="produtos">
+            <div class="card-produto">
+                <img src="imagens/ABADÁCM.jpg" alt="Produto" class="img-produto" />
+                <h3>ABADÁ COM MANGA</h3>
+                <p class="descricao">Abadá personalizado com mangas.</p>
+                <p class="preco">R$ 28.00 </p>
+                <button class="btn-comprar" onclick="comprar('ABADÁ COM MANGA')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/ABADÁSM.jpg" alt="Produto" class="img-produto" />
+                <h3>ABADÁ SEM MANGA</h3>
+                <p class="descricao">Abadá personalizado sem mangas.</p>
+                <p class="preco">R$ 22.00 </p>
+                <button class="btn-comprar" onclick="comprar('ABADÁ SEM MANGA')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/COPO.png" alt="Produto" class="img-produto" />
+                <h3>COPO</h3>
+                <p class="descricao">Copo personalizado.</p>
+                <p class="preco">R$ 12.00 </p>
+                <button class="btn-comprar" onclick="comprar('COPO')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/INGRESSO.png" alt="Produto" class="img-produto" />
+                <h3>INGRESSO</h3>
+                <p class="descricao">Ingresso que garante a entrada no evento.</p>
+                <p class="preco">R$ 10.00 </p>
+                <button class="btn-comprar" onclick="comprar('__NOME__')">Comprar</button>
+            </div>
+
+        <h2 class="titulo-secao">KITS PROMOCIONAIS</h2>
+
+            <div class="card-produto">
+                <img src="imagens/kit1.png" alt="Produto" class="img-produto" />
+                <h3>KIT 1 (COMPLETO)</h3>
+                <p class="descricao">ABADÁ COM MANGA + COPO + INGRESSO</p>
+                <p class="preco">R$ 40.00 </p>
+                <button class="btn-comprar" onclick="comprar('KIT 1 (COMPLETO)')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit1.1.png" alt="Produto" class="img-produto" />
+                <h3>KIT 1.1 (COMPLETO)</h3>
+                <p class="descricao">ABADÁ SEM MANGA + COPO + INGRESSO</p>
+                <p class="preco">R$ 35.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 1.1 (COMPLETO)')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit2.png" alt="Produto" class="img-produto" />
+                <h3>KIT 2</h3>
+                <p class="descricao">ABADÁ COM MANGA + COPO</p>
+                <p class="preco">R$ 35.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 2')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit2.2.png" alt="Produto" class="img-produto" />
+                <h3>KIT 2.2</h3>
+                <p class="descricao">ABADÁ SEM MANGA + COPO</p>
+                <p class="preco">R$ 30.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 2.2')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit3.png" alt="Produto" class="img-produto" />
+                <h3>KIT 3</h3>
+                <p class="descricao">INGRESSO + COPO</p>
+                <p class="preco">R$ 15.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 3')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit4.png" alt="Produto" class="img-produto" />
+                <h3>KIT 4</h3>
+                <p class="descricao">INGRESSO + ABADÁ COM MANGA</p>
+                <p class="preco">R$ 30.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 4')">Comprar</button>
+            </div>
+
+            <div class="card-produto">
+                <img src="imagens/kit4.1.png" alt="Produto" class="img-produto" />
+                <h3>KIT 4.1</h3>
+                <p class="descricao">INGRESSO + ABADÁ SEM MANGA</p>
+                <p class="preco">R$ 25.OO </p>
+                <button class="btn-comprar" onclick="comprar('KIT 4.1')">Comprar</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- INFO EVENTO -->
+    <section>
+        <h2 class="titulo-secao">Sobre o Evento</h2>
+        <div class="info">
+            <p>O Carnaval Federal é um evento privado, com estrutura, segurança e atrações definidas.</p>
+            <p>Não é carnaval de rua. É experiência.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© Carnaval Federal 2026</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        function comprar(produto) {
+            const numeroWhatsApp = '5588981170417'; // troque pelo número oficial
+            const mensagem = `Olá! Quero comprar: ${produto} - Carnaval Federal 2026 🎭`;
+            const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
